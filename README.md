@@ -17,9 +17,8 @@ This project provides a lightweight C++ library for loading, saving, and process
 
 ## Build & Test
 
-```bash
-cd cpp-image-processing-module
-mkdir build && cd build
+```powershell
+cd build
 cmake ..
-make
-ctest --output-on-failure
+cmake --build . --config Debug
+ctest --output-on-failure -C Debug
