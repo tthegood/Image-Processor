@@ -1,0 +1,22 @@
+# CMake build folder
+/build/
+
+# Visual Studio
+*.vcxproj*
+*.sln
+*.user
+*.opensdf
+*.sdf
+
+# Mac/Linux object files
+*.o
+*.obj
+*.so
+
+# Binaries
+test_sobel.exe
+sobel_example.exe
+image.lib
+
+# CTest/Dart files
+DartConfiguration.tcl
